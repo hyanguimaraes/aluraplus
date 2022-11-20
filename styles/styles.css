@@ -11,11 +11,20 @@ body{
 }
 
 .principal{
-    background-image: url("assets/img/background.png");
+    background-image: url("/assets/img/background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .container{
     height: 100vh;
+}
+
+.container_botao{
+    background-color: var(--azul_botao);
+    color: var(--branco_principal);
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
 }
