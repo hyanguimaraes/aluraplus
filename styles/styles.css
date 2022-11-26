@@ -13,22 +13,31 @@ body{
     font-size: 16px;
 }
 
-.principal{
-    background-image: url("../assets/img/background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
-.container_titulo{
+.container_primario{
+    background-image: url("../assets/img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container_caixa_principal{
+    margin: 0 6em;
+}
+
+.container_titulo_principal{
     font-size: 28px;
     font-weight: 700;
-    text-align: center;
+}
+
+.container_imagem_principal{
+    margin: 1em 0 2em 0;
 }
 
 .container_botao{
@@ -38,7 +47,7 @@ body{
     border-radius: 5px;
     text-decoration: none;
     display: block;
-    text-align: center;
+    margin-bottom: 1em;
 }
 
 .container_botao_secundario{
@@ -47,7 +56,38 @@ body{
 }
 
 .container_aviso{
-    text-align: center;
     color: var(--cinza_secundario);
     font-size: 12px;
+}
+
+.container_secundario, .container_terciario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container_caixa_plataformas, .container_caixa_telas{
+    padding: 2em;
+}
+
+.container_imagem_plataformas, .container_imagem_telas{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container_titulo_plataformas{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco_principal);
+}
+
+.container_paragrafo_plataformas, .container_paragrafo_telas{
+    font-size: 16px;
+    color: var(--cinza_secundario);
+    margin: 0.5em 0;
+    line-height: 1.5em;
+}
+
+.container_botao_terciario{
+    display: inline-block;
+    margin: 1em 0 0 0;
 }
