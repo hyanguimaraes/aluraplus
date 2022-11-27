@@ -17,6 +17,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 600px;
 }
 
 .container_primario{
@@ -50,6 +51,10 @@ body{
     margin-bottom: 1em;
 }
 
+.container_botao:hover{
+    scale: 1.05;
+}
+
 .container_botao_secundario{
     background-color: transparent;
     border: 1px solid var(--branco_principal);
@@ -60,27 +65,27 @@ body{
     font-size: 12px;
 }
 
-.container_secundario, .container_terciario{
+.container_secundario, .container_terciario, .container_quaternario{
     align-items: center;
     margin: 0 10em;
 }
 
-.container_caixa_plataformas, .container_caixa_telas{
+.container_caixa_plataformas, .container_caixa_telas, .container_caixa_notebook{
     padding: 2em;
 }
 
-.container_imagem_plataformas, .container_imagem_telas{
+.container_imagem_plataformas, .container_imagem_telas, .container_imagem_notebook{
     width: 80%;
     margin: 0 auto;
 }
 
-.container_titulo_plataformas{
+.container_titulo_plataformas, .container_titulo_notebook, .container_titulo_dispositivos{
     font-size: 48px;
     font-weight: 700;
     color: var(--branco_principal);
 }
 
-.container_paragrafo_plataformas, .container_paragrafo_telas{
+.container_paragrafo_plataformas, .container_paragrafo_telas, .container_paragrafo_notebook{
     font-size: 16px;
     color: var(--cinza_secundario);
     margin: 0.5em 0;
@@ -90,4 +95,63 @@ body{
 .container_botao_terciario{
     display: inline-block;
     margin: 1em 0 0 0;
+}
+
+.container_titulo_dispositivos{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.dispositivos_lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lista_item{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0.5em;
+    color: var(--branco_principal);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6em;
+}
+
+.logo_alura_plus{
+    margin: 7em auto 3em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 40px 1.5em;
+}
+
+nav a{
+    display: inline;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--branco_principal);
+}
+
+nav a:hover{
+    color: var(--azul_botao);
+}
+
+nav a:active{
+    color: purple;
+}
+
+.container_paragrafo_footer{
+    text-align: center;
+    color: var(--cinza_secundario);
+    font-size: 14px;
+    margin: 0.5em 40px;
+    line-height: 1.5em;
 }
