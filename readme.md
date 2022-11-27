@@ -6,7 +6,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **AluraPlus**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         | https://hyanguimaraes.github.io/alura_plus
+| :rocket: URL         | https://hyanguimaraes.github.io/aluraplus
 | :fire: Curso     | https://cursos.alura.com.br/course/html-css-praticando-html-css
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
