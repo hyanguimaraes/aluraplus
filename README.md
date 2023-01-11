@@ -1,6 +1,6 @@
 <h1 align="center"> AluraPlus </h1>
 
-<a href="https://hyanguimaraes.github.io/aluraplus"><img src="https://raw.githubusercontent.com/hyanguimaraes/aluraplus/main/assets/gif/gif_readme.gif" alt="gif da página carregada com o usuário demonstrando itens responsivos"></a>
+![](https://raw.githubusercontent.com/hyanguimaraes/aluraplus/main/assets/gif/gif_readme.gif#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/aluraplus?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/aluraplus?style=plastic)
 
