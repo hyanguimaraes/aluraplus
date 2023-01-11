@@ -1,4 +1,4 @@
-'<h1 align="center"> AluraPlus </h1>
+<h1 align="center"> AluraPlus </h1>
 
 <a href="https://hyanguimaraes.github.io/aluraplus"><img src="https://raw.githubusercontent.com/hyanguimaraes/aluraplus/main/assets/gif/gif_readme.gif" alt="gif da página carregada com o usuário demonstrando itens responsivos"></a>
 
